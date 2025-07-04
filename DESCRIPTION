@@ -1,0 +1,24 @@
+Package: lrcheck
+Type: Package
+Title: Check your ligand and receptor information according your requirement
+Version: 1.0
+Authors@R: 
+    person("Siming", "Cheng", , "simoncheng158@gmail.com", role = c("aut", "cre"))
+Maintainer: Siming Cheng <simoncheng158@gmail.com>
+Description: The packages can help you search ligand and receptor information base on your import.
+    Human,Mouse and Zebrafish LR database are supported.
+License: License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/BioinfoCSM/lrcheck
+BugReports: https://github.com/BioinfoCSM/lrcheck/issues
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.1.0)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr,
+    ggplot2,
+    ggsci,
+    ggsignif,
+    magrittr,
+    stringr
